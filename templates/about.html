@@ -1,0 +1,33 @@
+{% extends 'base.html'%}
+<link rel="stylesheet" href="style.css">
+{% block title %}About{% endblock title %}
+
+{% block body %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'about.css'%}">
+<div class="a mb-3 py-4 ">
+    <h1 class="text-center">About US</h1>
+</div>
+<div class="container py-10 ">
+<img src="https://source.unsplash.com/250x250/?icecream" class="object-fit-sm-contain border rounded" alt="...">
+<img src="https://source.unsplash.com/250x250/?icecream" class="object-fit-md-contain border rounded" alt="...">
+<img src="https://source.unsplash.com/250x250/?icecream"class="object-fit-lg-contain border rounded" alt="...">
+<img src="https://source.unsplash.com/250x250/?icecream" class="object-fit-xl-contain border rounded" alt="...">
+<img src="https://source.unsplash.com/250x250/?icecream" class="object-fit-xxl-contain border rounded" alt="...">
+</div>
+<div class="container mb-3 py-4 ">
+    <a href="https://naturalicecreams.in/">Open This For More Details</a>
+</div>
+  <div class="container mb-10">
+      <pre>
+        Starting with around 10 flavours, 
+        today Natural Ice Cream has 125 flavour options,
+        of which 20 are offered throughout the year.
+        The set of flavours change according to seasons. 
+        Some of the seasonal flavors include litchi, fig, jackfruit, Muskmelon and watermelon.
+        A custard apple flavor is also purveyed by the brand.
+      </pre>
+    </div>
+
+
+{% endblock body %}

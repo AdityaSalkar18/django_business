@@ -1,0 +1,7 @@
+body{
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
+
+.btn{
+    padding-top: 2px;
+}
